@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
       ORG               = 'jmlambert78'
-      APP_NAME          = 'jenkinsx'
+      APP_NAME          = 'mongoexpress'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
     stages {

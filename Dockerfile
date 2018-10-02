@@ -20,10 +20,10 @@ EXPOSE 8081
 
 # override some config defaults with values that will work better for docker
 ENV ME_CONFIG_EDITORTHEME="default" \
-    ME_CONFIG_MONGODB_SERVER="mongo-staging-mongodb" \
+    ME_CONFIG_MONGODB_SERVER="mongo-staging-mongodb.jx-staging" \
     ME_CONFIG_MONGODB_ENABLE_ADMIN="true" \
-    ME_CONFIG_BASICAUTH_USERNAME="" \
-    ME_CONFIG_BASICAUTH_PASSWORD="" \
+    ME_CONFIG_BASICAUTH_USERNAME="root" \
+    ME_CONFIG_BASICAUTH_PASSWORD="CMJ5xroauy" \
     VCAP_APP_HOST="0.0.0.0"
 
 WORKDIR /app

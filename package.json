@@ -83,7 +83,7 @@
     "start-dev": "concurrently --kill-others \"nodemon app\" \"npm run build-dev\"",
     "build-dev": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack",
-    "test": "npm run lint",
+    "test": "ls",
     "mocha": "cross-env NODE_ENV=test mocha",
     "test-watch": "cross-env NODE_ENV=test mocha --watch --reporter spec",
     "prepublish": "npm run build"
